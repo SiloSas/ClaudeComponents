@@ -2,7 +2,7 @@ angular.module('claudeApp').directive('ngControls', ['$rootScope', '$window',
     function($rootScope, $window){
     return{
         restrict : 'E',
-        templateUrl:'components/buttonsControls/controls.html',
+        templateUrl:'assets/components/buttonsControls/controls.html',
         scope : true,
         link : function (scope, element) {
             if ($rootScope.window != 'small') {

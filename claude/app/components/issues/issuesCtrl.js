@@ -1,6 +1,6 @@
-angular.module('claudeApp').controller('issuesCtrl', ['$scope', '$rootScope', '$modal',
+angular.module('claudeApp').controller('issuesCtrl', ['$scope', '$rootScope',
     'IssuesFactory', 'InfoModal', 'StoreRequest', '$http',
-    function ($scope, $rootScope, $modal, IssuesFactory, InfoModal, StoreRequest, $http) {
+    function ($scope, $rootScope, IssuesFactory, InfoModal, StoreRequest, $http) {
     $scope.newComment= [];
     $scope.newIssue= [];
     $scope.issues = [];

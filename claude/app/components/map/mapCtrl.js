@@ -1,5 +1,6 @@
 angular.module('claudeApp').
     controller('MapCtrl', ['$scope', function ($scope) {
+        $scope.zoom = 13;
         $scope.moreZoom = function() {
             $scope.zoom = $scope.zoom + 1;
         };
@@ -8,7 +9,7 @@ angular.module('claudeApp').
         };
         $scope.getItineraire = function () {
             $scope.map = false;
-            //$scope.start = $rootScope.geoLoc.replace("(", "").replace(")", "").replace(",", ", ");
+            $scope.start = $rootScope.geoLoc.replace("(", "").replace(")", "").replace(",", ", ");
             $scope.map = true;
             var oldInf = window.directionInfos;
             var waitForInfosChanges = setInterval(function () {

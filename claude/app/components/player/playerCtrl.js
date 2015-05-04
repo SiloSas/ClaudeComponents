@@ -31,7 +31,7 @@ angular.module('claudeApp').
 
             $scope.savePlaylist = function () {
                 var modalInstance = $modal.open({
-                    templateUrl: 'components/player/savePlaylistForm.html',
+                    templateUrl: 'assets/components/player/savePlaylistForm.html',
                     controller: 'savePlaylistCtrl'
                 });
                 modalInstance.result.then( function () {

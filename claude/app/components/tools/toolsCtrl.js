@@ -2,7 +2,7 @@ angular.module('claudeApp').controller('toolsCtrl', function ($scope, $modal, $l
     $scope.connected = $rootScope.connected;
     $scope.open = function () {
         var modalInstance = $modal.open({
-            templateUrl: 'components/tools/tools.html',
+            templateUrl: 'assets/components/tools/tools.html',
             controller: 'ModalInstanceCtrl',
             resolve: {
                 items: function () {

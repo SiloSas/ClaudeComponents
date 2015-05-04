@@ -3,7 +3,7 @@ angular.module('claudeApp').
         function ($window, $rootScope) {
             return {
                 restrict : 'E',
-                templateUrl: 'components/organizers/organizerMin.html',
+                templateUrl: 'assets/components/organizers/organizerMin.html',
                 scope : true,
                 link : function (scope, element) {
                     function resizeElem () {

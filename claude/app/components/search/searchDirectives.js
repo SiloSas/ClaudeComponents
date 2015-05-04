@@ -1,14 +1,14 @@
 angular.module('claudeApp').directive('ngSearchBar', function(){
     return{
         restrict : 'E',
-        templateUrl:'components/search/searchBar.html'
+        templateUrl:'assets/components/search/searchBar.html'
     }
 });
 
 angular.module('claudeApp').directive('ngSearch', function(){
     return{
         restrict : 'C',
-        templateUrl:'components/search/search.html',
+        templateUrl:'assets/components/search/search.html',
         controller:'searchCtrl',
         link : function(scope, element){
             var positionElementInPage;

@@ -3,7 +3,7 @@ angular.module('claudeApp').factory('StoreRequest', ['$modal', '$rootScope',
         var factory = {
             storeRequest : function (method, path, object, success, error) {
                 var modalInstance = $modal.open({
-                    templateUrl: 'components/connect/connectionModal.html',
+                    templateUrl: 'assets/components/connect/connectionModal.html',
                     controller: 'ConnectionModalCtrl',
                     resolve: {
                         connected: function () {

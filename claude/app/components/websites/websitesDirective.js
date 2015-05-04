@@ -2,6 +2,6 @@ angular.module('claudeApp').
     directive('websites', function () {
         return {
             restrict : 'E',
-            templateUrl: 'components/websites/websites.html'
+            templateUrl: 'assets/components/websites/websites.html'
         }
     });

@@ -2,7 +2,7 @@ angular.module('claudeApp').
     directive('eventMin', ['$window', function ($window) {
         return {
             restrict : 'E',
-            templateUrl: 'components/events/eventMin.html',
+            templateUrl: 'assets/components/events/eventMin.html',
             scope : true,
             link : function (scope, element) {
                 function resizeElem () {

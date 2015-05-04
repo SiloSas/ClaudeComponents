@@ -1,7 +1,7 @@
-angular.module('claudeApp').controller('connectCtrl', ['$scope', '$rootScope', '$http', '$modal',
+angular.module('claudeApp').controller('connectCtrl', ['$scope', '$rootScope', '$http',
     'ArtistsFactory', 'UserFactory', 'OrganizerFactory', 'EventsFactory', 'PlaceFactory',
     'StoreRequest',
-    function ($scope, $rootScope, $http, $modal, ArtistsFactory, UserFactory, OrganizerFactory,
+    function ($scope, $rootScope, $http, ArtistsFactory, UserFactory, OrganizerFactory,
               EventsFactory, PlaceFactory, StoreRequest) {
 
         var token = '';
